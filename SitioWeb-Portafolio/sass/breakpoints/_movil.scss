@@ -1,7 +1,7 @@
 @media(max-width: 767px){
   #wrapper-principal{
     max-width: 100%;
-    height: 100%;
+    height: 1291px;
     margin: 0 auto;
     background-color: #f9f9f9;
     font-family: 'Open Sans', sans-serif;
@@ -9,7 +9,7 @@
   #wrapper-secundario{
     max-width: 100%;
     width: 1440px;
-    height: 100%;
+    height: 1291px;
     margin: 0 auto;
     border-radius: 22px 22px 22px 22px;
     background-color: #012525;
@@ -28,12 +28,6 @@
   #menu-2{
     display: none;
   }
-  .menu-hamburger{
-    display: block;
-    float: right;
-    margin-right: 35px;
-    margin-top: 35px;
-  }
 
   /*Home*/
   #wrapper-home{
@@ -45,7 +39,7 @@
   #info-home{
     background-color: #f9f9f9;
     width: 100%;
-    height: 1000px;
+    height: 1291px;
     background-image: url(../../img/fondo-home.jpg);
     background-size: cover;
     justify-content: unset;
@@ -57,13 +51,14 @@
   #titles-home h3{
     color: #f9f9f9;
     padding-left: 190px;
-    margin-top: 350px;
+    margin-top: 470px;
   }
+
   /*Animación*/
-.titles-home-animate{
-  left: 35px;
-  top: 400px;
-}
+  .titles-home-animate{
+    left: 50px;
+    top: 550px;
+  }
 
   /*About me*/
   #info-personal{
@@ -75,9 +70,9 @@
   #profile-photo img{
     margin: 0;
     padding-top: 50px;
-    padding-left: 150px;
-    width: 344px;
-    height: 352px;
+    padding-left: 90px;
+    width: 444px;
+    height: 452px;
   }
   #text-personal{
     text-align: center;
@@ -90,13 +85,13 @@
   #text-personal p{
     line-height: 35px;
     width: 500px;
-    text-align: justify;
-    font-size: 16px;
+    text-align: left;
+    font-size: 18px;
     margin-left: 0;
     padding-left: 55px;
   }
   #text-personal h3{
-    font-size: 24px;
+    font-size: 54px;
     margin-left: 0;
     margin-top: 0;
     padding-top: 75px;
@@ -122,7 +117,7 @@
     margin-top: 40px;
     padding-bottom: 40px;
     color: #f9f9f9;
-    font-size: 16px;
+    font-size: 18px;
   }
   .button-site{
     display: none;
@@ -141,9 +136,10 @@
     color: #f9f9f9;
     float: left;
     border-radius: 22px 22px 0 0;
+    font-size: 20px;
   }
   #info-contact h2{
-    padding-top: 50px;
+    padding-top: 100px;
     margin-left: 300px;
   }
   #content-form{
@@ -154,7 +150,8 @@
     border-radius: 0 0 22px 22px;
   }
   .form{
-    margin-top: 90px;
+    margin-top: 120px;
+    font-size: 20px;
   }
   #content-form h2{
     margin-left: 300px;
@@ -162,16 +159,16 @@
     color: #f9f9f9;
   }
   #content-form label{
-    margin-left: 140px;
+    margin-left: 150px;
     font-weight: bold;
     color: #f9f9f9;
   }
   #content-form input{
     margin-top: 5px;
-    margin-left: 140px;
+    margin-left: 150px;
     margin-bottom: 20px;
     width: 450px;
-    height: 25px;
+    height: 35px;
     display: block;
     border: 1px solid #f9f9f9;
     background-color: #012525;
@@ -181,20 +178,19 @@
   #content-form button{
     display: block;
     font-size: 16px;
-    padding: 10px 16px;
+    padding: 10px 20px;
     color: #012525;
     background-color: #f9f9f9;
     border: 1px solid #f9f9f9;
     border-radius: 5px;
-    margin-left: 320px;
+    margin-left: 350px;
     margin-top: 35px;
     margin-bottom: 40px;
-    font-weight: bold;
   }
   #content-form textarea{
     width: 450px;
     height: 150px;
-    margin-left: 140px;
+    margin-left: 150px;
     margin-top: 7px;
     border: 1px solid #012525;
     border: 1px solid #f9f9f9;
