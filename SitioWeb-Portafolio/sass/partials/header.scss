@@ -1,0 +1,43 @@
+#header{
+  margin: 0 auto;
+  width: 1700px;
+}
+/*logo*/
+#logo{
+  width: 200px;
+  float: left;
+}
+
+/*Menú*/
+.menu-hamburger{
+  display: none;
+}
+#menu{
+  float: right;
+  width: 720px;
+}
+#menu-2{
+  margin-right: 100px;
+}
+#menu-lista{
+  float: right;
+}
+#menu-lista{
+  list-style: none;
+  padding-top: 20px;
+}
+#menu-lista li{
+  float: left;
+}
+#menu-lista li + li{
+  margin-left: 50px;
+}
+#menu-lista a{
+  color: #012525;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 16px;
+}
+#menu-lista a:hover{
+  text-decoration: underline;
+}

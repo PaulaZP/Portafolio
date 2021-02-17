@@ -1,0 +1,76 @@
+#content-contact {
+  width: 1440px; }
+
+#info-contact {
+  width: 700px;
+  height: 800px;
+  background-image: url(../../img/Fondo-2.jpg);
+  color: #f9f9f9;
+  float: left;
+  border-radius: 22px 0 0 22px; }
+
+#info-contact h2 {
+  padding-top: 150px;
+  margin-left: 250px; }
+
+#info-contact p {
+  margin-left: 250px; }
+
+#info-contact img {
+  margin-right: 10px; }
+
+#info-contact p + p {
+  margin-top: 40px; }
+
+#content-form {
+  width: 737px;
+  height: 800px;
+  background-color: #fdfdfd;
+  float: right;
+  border-radius: 0 22px 22px 0; }
+
+.form {
+  margin-top: 170px; }
+
+#content-form h2 {
+  margin-left: 140px;
+  font-weight: bold;
+  color: #012525; }
+
+#content-form label {
+  margin-left: 140px;
+  font-weight: bold; }
+
+#content-form input {
+  margin-top: 5px;
+  margin-left: 140px;
+  margin-bottom: 20px;
+  width: 450px;
+  height: 25px;
+  display: block;
+  border: 1px solid #012525;
+  border-radius: 5px; }
+
+#content-form button {
+  display: block;
+  font-size: 16px;
+  padding: 10px 16px;
+  color: #fdfdfd;
+  background-color: #012525;
+  border: 1px solid #012525;
+  border-radius: 5px;
+  margin-left: 320px;
+  margin-top: 35px; }
+
+#content-form button:hover {
+  background-color: #1e4d1e;
+  border: 1px solid #1e4d1e;
+  color: #f9f9f9; }
+
+#content-form textarea {
+  width: 450px;
+  height: 150px;
+  margin-left: 140px;
+  margin-top: 7px;
+  border: 1px solid #012525;
+  border-radius: 5px; }

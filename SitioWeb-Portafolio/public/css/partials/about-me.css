@@ -1,0 +1,30 @@
+@charset "UTF-8";
+/*Contenido de la información personal*/
+#info-personal {
+  display: flex; }
+
+#profile-photo {
+  width: 611px; }
+
+#profile-photo img {
+  margin: 170px 140px;
+  width: 450px;
+  height: 480px; }
+
+#text-personal {
+  text-align: center;
+  width: 611px;
+  color: #f9f9f9;
+  justify-content: space-between; }
+
+#text-personal p {
+  margin-left: 170px;
+  line-height: 35px;
+  width: 500px;
+  text-align: left;
+  font-size: 18px; }
+
+#text-personal h3 {
+  margin-top: 150px;
+  margin-left: 190px;
+  font-size: 45px; }
