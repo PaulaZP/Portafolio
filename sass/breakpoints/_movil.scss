@@ -97,30 +97,74 @@
     padding-top: 75px;
   }
 
-  /*Briefcase*/
-  #proyect-info{
-    display: unset;
+  /*Projects*/
+  #box-project{
+    height: 1291px;
+    color: white;
+    margin-left: 110px;
+    padding-top: 125px;
+    float: left;
   }
-  #arrow-1{
-    display: none;
+  .info-project-1{
+    background-image: url(../../img/img-1.png);
+    background-size: cover;
+    float: left;
+    margin-right: 39px;
+    width: 380px;
+    height: 250px;
+    margin-bottom: 50px;
+    border-radius: 8px;
+    box-shadow: 0px 3.89312px 23.3587px rgba(71, 126, 76, 0.20);
   }
-  #arrow-2{
-    display: none;
+  .info-project-2{
+    background-image: url(../../img/img-2.png);
+    background-size: cover;
+    float: left;
+    margin-right: 39px;
+    width: 380px;
+    height: 250px;
+    margin-bottom: 50px;
+    border-radius: 8px;
+    box-shadow: 0px 3.89312px 23.3587px rgba(71, 126, 76, 0.20);
   }
-  #proyect-text{
-    margin: 0 auto;
+  .info-project-3{
+    background-image: url(../../img/img-3.png);
+    background-size: cover;
+    float: left;
+    width: 380px;
+    height: 250px;
+    margin-bottom: 50px;
+    border-radius: 8px;
+    box-shadow: 0px 3.89312px 23.3587px rgba(71, 126, 76, 0.20);
   }
-  #proyect-text p{
-    width: 512px;
-    text-align: left;
-    margin-left: 120px;
-    margin-top: 40px;
-    padding-bottom: 40px;
-    color: #f9f9f9;
-    font-size: 18px;
+  .info-project-4{
+    background-image: url(../../img/img-4.png);
+    background-size: cover;
+    float: left;
+    margin-right: 39px;
+    width: 380px;
+    height: 250px;
+    border-radius: 8px;
+    box-shadow: 0px 3.89312px 23.3587px rgba(71, 126, 76, 0.20);
   }
-  .button-site{
-    display: none;
+  .info-project-5{
+    background-image: url(../../img/img-5.png);
+    background-size: cover;
+    float: left;
+    margin-right: 39px;
+    width: 380px;
+    height: 250px;
+    border-radius: 8px;
+    box-shadow: 0px 3.89312px 23.3587px rgba(71, 126, 76, 0.20);
+  }
+  .info-project-6{
+    background-image: url(../../img/img-6.png);
+    background-size: cover;
+    float: left;
+    width: 380px;
+    height: 250px;
+    border-radius: 8px;
+    box-shadow: 0px 3.89312px 23.3587px rgba(71, 126, 76, 0.20);
   }
 
   /*Contact*/
@@ -200,11 +244,11 @@
   }
 
   /*Footer*/
-#copy{
-  margin-top: 30px;
-  margin-left: 210px;
-  color: #012525;
-  font-weight: bold;
-  padding-bottom: 20px;
-}
+  #copy{
+    margin-top: 30px;
+    margin-left: 210px;
+    color: #012525;
+    font-weight: bold;
+    padding-bottom: 20px;
+  }
 }
