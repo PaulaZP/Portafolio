@@ -7,7 +7,7 @@ body{
   max-width: 100%;
   height: 980px;
   margin: 0 auto;
-  background-color: #f9f9f9;
+  background-color: $colorPrincipal;
   font-family: 'Open Sans', sans-serif;
 }
 #wrapper-secundario{
@@ -16,7 +16,7 @@ body{
   height: 800px;
   margin: 0 auto;
   border-radius: 22px 22px 22px 22px;
-  background-color: #012525;
+  background-color: $colorSecond;
 }
 .clearfix::after{
   content: "";
