@@ -99,67 +99,59 @@
 
   /*Projects*/
   #box-project{
-    color: $colorPrincipal;
-    border: 1px solid yellowgreen;
-    width: 650px;
-    margin-left: 55px;
+    color: white;
+    margin-left: 40px;
     padding-top: 125px;
     float: left;
   }
   .info-project-1{
-    background-image: url(../../img/img-1.png);
-    background-size: cover;
-    margin-right: 39px;
-    width: 300px;
-    height: 200px;
-    margin-bottom: 50px;
-    border-radius: 8px;
-    box-shadow: 0px 3.89312px 23.3587px rgba(71, 126, 76, 0.20);
+    float: left;
+    margin-right: 0;
+    margin-top: 50px;
+    width: 320px;
+    height: 220px;
   }
   .info-project-2{
-    background-image: url(../../img/img-2.png);
-    background-size: cover;
-    margin-right: 39px;
-    width: 300px;
-    height: 200px;
-    margin-bottom: 50px;
-    border-radius: 8px;
-    box-shadow: 0px 3.89312px 23.3587px rgba(71, 126, 76, 0.20);
+    float: right;
+    margin-top: 50px;
+    width: 320px;
+    height: 220px;
   }
   .info-project-3{
-    background-image: url(../../img/img-3.png);
-    background-size: cover;
-    width: 300px;
-    height: 200px;
-    margin-bottom: 50px;
-    border-radius: 8px;
-    box-shadow: 0px 3.89312px 23.3587px rgba(71, 126, 76, 0.20);
+    float: left;
+    width: 320px;
+    height: 220px;
+    margin-top: 30px;
   }
   .info-project-4{
-    background-image: url(../../img/img-4.png);
-    background-size: cover;
-    margin-right: 39px;
-    width: 300px;
-    height: 200px;
-    border-radius: 8px;
-    box-shadow: 0px 3.89312px 23.3587px rgba(71, 126, 76, 0.20);
+    float: right;
+    margin-top: 30px;
+    width: 320px;
+    height: 220px;
   }
   .info-project-5{
-    background-image: url(../../img/img-5.png);
-    background-size: cover;
-    margin-right: 39px;
-    width: 300px;
-    height: 200px;
-    border-radius: 8px;
-    box-shadow: 0px 3.89312px 23.3587px rgba(71, 126, 76, 0.20);
+    float: right;
+    margin-top: 80px;
+    width: 320px;
+    height: 220px;
   }
   .info-project-6{
-    background-image: url(../../img/img-6.png);
-    background-size: cover;
-    width: 300px;
-    height: 200px;
-    border-radius: 8px;
-    box-shadow: 0px 3.89312px 23.3587px rgba(71, 126, 76, 0.20);
+    float: float;
+    width: 320px;
+    height: 220px;
+    margin-top: 30px;
+
+  }
+  #project-img{
+    margin-left: 140px;
+    padding-top: 150px;
+  }
+  #text-project{
+    color: $colorPrincipal;
+    margin-top: 150px;
+    margin-left: 150px;
+    width: 500px;
+    font-size: 18px;
   }
 
   /*Contact*/
