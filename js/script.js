@@ -1,30 +1,42 @@
-/*Formulario*/
-const form = document.querySelector("form");
-const inputs = document.querySelectorAll('.requerido');
-const script = document.querySelector('script');
-const formulario = form.parentElement;
-const h2 = document.createElement('h2');
-const h3 = document.createElement('h3');
-let error = '';
-let valido = '';
+/*-----------Menu-----------*/
+var menu = document.querySelector('.hamburger');
 
-form.addEventListener("submit", function(e) {
-  e.preventDefault();
-  inputs.forEach(element =>{
-    if(element.value != ''){
-      element.style.border = 'solid 1px black';
-      error = '';
-      valido = "Su formulario fue enviado";
-    }else{
-      element.style.border = 'solid 1px red';
-      error = 'Ocurrio un error';
-      valido = "";
-    }
-  });
-  h2.innerText = valido;
-  h3.innerText = error;
-  formulario.insertBefore(h2, script);
-  h2.style.backgroundColor = "#b8daba";
-  formulario.insertBefore(h3, form);
-  h3.style.backgroundColor = "#fdb9a7";
-});
+//method
+function toggleMenu (event) {
+  this.classList.toggle('is-active');
+  document.querySelector( ".menuppal" ).classList.toggle("is_active");
+  event.preventDefault();
+}
+
+//event
+menu.addEventListener('click', toggleMenu, false);
+
+
+/*-----------Api github-----------*/
+const UserUrl = "https://api.github.com/users/PaulaZP";
+function githubUser(){
+  fetch(UserUrl, {
+    method: "GET"
+  })
+    .then((response) => {
+      if (!response.ok) {
+        throw new Error("Network response was not ok " + response.status);
+      }
+
+      return response.json();
+    })
+    .then((data) => {
+      githubApi(data);
+      console.log(data);
+    })
+    .catch((error) => {
+      console.log("error", error);
+    });
+};
+
+githubUser();
+
+function githubApi(data){
+  const repos = document.querySelector('#repo');
+  repos.innerText = `Public repositories: ${data.public_repos}`;
+}

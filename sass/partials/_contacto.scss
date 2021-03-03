@@ -51,12 +51,12 @@
   width: 450px;
   height: 25px;
   display: block;
-  border: 1px solid $colorSecond;
+  border: 2px solid $colorSecond;
   border-radius: 5px;
 }
 #content-form button{
   display: block;
-  font-size: 16px;
+  font-size: 1rem;
   padding: 10px 16px;
   color: $colorPrincipal;
   background-color: $colorSecond;
@@ -69,12 +69,4 @@
   background-color: #1e4d1e;
   border: 1px solid #1e4d1e;
   color: $colorPrincipal;
-}
-#content-form textarea{
-  width: 450px;
-  height: 150px;
-  margin-left: 140px;
-  margin-top: 7px;
-  border: 1px solid $colorSecond;
-  border-radius: 5px;
 }
